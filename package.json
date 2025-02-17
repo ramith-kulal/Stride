@@ -17,6 +17,7 @@
     "chart.js": "^4.4.7",
     "date-fns": "^4.1.0",
     "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.4",
     "drizzle-orm": "^0.39.3",
     "jose": "^5.9.6",
     "js-cookie": "^3.0.5",
