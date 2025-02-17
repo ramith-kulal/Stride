@@ -9,7 +9,7 @@ Stride is a **modern and efficient** personal task management system designed to
 - 🔒 **Authentication:** Secure login/signup system using JWT and cookies.  
 - 📝 **Task Management:** Create, update, mark tasks as complete, and filter/search tasks.  
 - 📊 **Dashboard Analytics:** Visual overview of task statistics, upcoming deadlines, and project status.  
-- 📅 **Calendar View:** Manage deadlines efficiently with an intuitive calendar.  
+- 📅 **Calendar View:** Manage deadlines efficiently with an intuitive calendar.   
 - 🎨 **Modern UI:** Responsive and dark mode support with Tailwind CSS.  
 - 🏎️ **3D Animation:** Interactive **Spline 3D model** that reacts to user interactions.  
 - ⚡ **Optimized Performance:** Efficient state management with Zustand and API fetching using React Query.  
