@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stride - Personal Task Management System
 
-## Getting Started
+Stride is a **modern and efficient** personal task management system designed to help users **organize tasks, track progress, and manage projects seamlessly**. Built with **Next.js 15, PostgreSQL, Drizzle ORM, Zustand, React Query, TypeScript, and Tailwind CSS**, Stride ensures a **responsive UI, optimized database queries, and smooth state management**.
 
-First, run the development server:
+## 🚀 Live Demo
+🔗 **[Stride Deployment](https://stride-cyan.vercel.app/)**
+
+## 📌 Features
+- 🔒 **Authentication:** Secure login/signup system using JWT and cookies.  
+- 📝 **Task Management:** Create, update, mark tasks as complete, and filter/search tasks.  
+- 📊 **Dashboard Analytics:** Visual overview of task statistics, upcoming deadlines, and project status.  
+- 📅 **Calendar View:** Manage deadlines efficiently with an intuitive calendar.  
+- 🎨 **Modern UI:** Responsive and dark mode support with Tailwind CSS.  
+- 🏎️ **3D Animation:** Interactive **Spline 3D model** that reacts to user interactions.  
+- ⚡ **Optimized Performance:** Efficient state management with Zustand and API fetching using React Query.  
+
+## 🛠️ Tech Stack
+- **Frontend:** Next.js 15, TypeScript, Tailwind CSS  
+- **State Management:** Zustand  
+- **API Fetching & Caching:** React Query  
+- **Backend:** Next.js API routes, Drizzle ORM, PostgreSQL  
+- **Authentication:** JWT (JSON Web Tokens), HTTP-only cookies  
+- **3D Animation:** Spline (for interactive 3D effects)  
+
+## 🏗️ Installation & Setup
+```bash
+git clone https://github.com/your-username/stride.git
+cd stride
+npm install
+npm run dev
+
+```
+Set up environment variables in a .env.local file:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+DATABASE_URL=your_postgresql_url
+JWT_SECRET=your_secret_key
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## API Endpoints
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Method | Endpoint            | Description              |
+|--------|---------------------|--------------------------|
+| POST   | `/api/auth/signup`  | User registration       |
+| POST   | `/api/auth/login`   | User login              |
+| GET    | `/api/core/tasks`   | Fetch all tasks         |
+| PUT    | `/api/core/tasks`   | Update task completion  |
+| GET    | `/api/core/projects` | Fetch all projects     |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 🎯 How It Works
+- Sign up/login to access your task dashboard.
+- Add tasks and projects, assign priorities, and set deadlines.
+- Track task completion progress with real-time updates.
+- Search and filter tasks for quick access.
+- Experience interactive 3D animations for a modern UI feel.
+- View project details and manage related tasks efficiently.
 
-To learn more about Next.js, take a look at the following resources:
+  ## Screenshot
+ 
+s
+  ![Screenshot 2025-02-17 203336](https://github.com/user-attachments/assets/682e4c4d-42db-4841-a35a-b9f5fc6d42ac)
+![Screenshot 2025-02-17 203413](https://github.com/user-attachments/assets/4b21bfbb-2e77-495b-aa1d-15ece678185a)
+![Screenshot 2025-02-17 203539](https://github.com/user-attachments/assets/889269d6-aae9-4306-b3f3-0a3a64e36079)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ ## What I Learned
+Working on Stride has been an incredible learning experience. Some key takeaways:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js 15 & API Routes – Improved my understanding of server-side logic and API handling within Next.js.
+- Drizzle ORM & PostgreSQL – Gained hands-on experience with schema migrations and optimized database queries.
+- Zustand & React Query – Learned state management best practices, API caching, and optimistic updates for a better UX.
+- Tailwind CSS & UI Design – Explored responsive design, dark mode implementation, and modern UI trends.
+- JWT Authentication & Cookies – Strengthened my knowledge of secure authentication mechanisms.
+- Spline 3D Animations – Experimented with interactive 3D models and how they can enhance user experience.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
