@@ -1,6 +1,6 @@
 # Stride - Personal Task Management System
 
-Stride is a **modern and efficient** personal task management system designed to help users **organize tasks, track progress, and manage projects seamlessly**. Built with **Next.js 15, PostgreSQL, Drizzle ORM, Zustand, React Query, TypeScript, and Tailwind CSS**, Stride ensures a **responsive UI, optimized database queries, and smooth state management**.
+Stride is a **modern and efficient** personal task management system designed to help users **organize tasks, track progress, and manage projects seamlessly**. Built with **Next.js 15, PostgreSQL, Drizzle ORM, Zustand, React Query, TypeScript, and Tailwind CSS**, Stride ensures a **responsive UI, optimized database queries, and smooth state management**. 
 
 ## 🚀 Live Demo
 🔗 **[Stride Deployment](https://stride-cyan.vercel.app/)**
