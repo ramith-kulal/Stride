@@ -6,7 +6,7 @@ import { useAuthStore } from "../../../stores/useAuthStore";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
-    
+         
 export default function LoginPage() {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [showPassword, setShowPassword] = useState(false);
