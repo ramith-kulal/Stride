@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { verifyToken } from "./app/lib/authentication/auth"; // Import token verification
-
+    
 export async function middleware(req) {
   console.log("Middleware is running for:", req.nextUrl.pathname);
 
