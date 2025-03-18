@@ -6,7 +6,7 @@ export async function middleware(req) {
    
   // Get token from cookies
   const token = req.cookies.get("token")?.value;
-  console.log("Token from cookies:", token);
+  console.log("Token from cookies:", token); 
 
   const isAuthRoute = req.nextUrl.pathname.startsWith("/auth/login");
 
