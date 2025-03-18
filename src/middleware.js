@@ -3,7 +3,7 @@ import { verifyToken } from "./app/lib/authentication/auth"; // Import token ver
     
 export async function middleware(req) {
   console.log("Middleware is running for:", req.nextUrl.pathname);
-
+   
   // Get token from cookies
   const token = req.cookies.get("token")?.value;
   console.log("Token from cookies:", token);
