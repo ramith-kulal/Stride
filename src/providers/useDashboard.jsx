@@ -6,7 +6,7 @@ const fetchDashboardData = async () => {
   if (!res.ok) throw new Error("Failed to fetch data");
   return res.json();
 }; 
-
+ 
 export function useDashboardData() {
   const updateStats = useDashboardStore((state) => state.updateStats);
   return useQuery({
