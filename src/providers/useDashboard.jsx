@@ -5,7 +5,7 @@ const fetchDashboardData = async () => {
   const res = await fetch("/api/core/dashboard");
   if (!res.ok) throw new Error("Failed to fetch data");
   return res.json();
-};
+}; 
 
 export function useDashboardData() {
   const updateStats = useDashboardStore((state) => state.updateStats);
